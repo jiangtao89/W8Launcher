@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?attr/mainStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceTitle" android:textSize="18.0sp" android:gravity="center_vertical" android:id="@id/set_item_title_first_title" android:background="@drawable/bg_set_title" android:paddingLeft="5.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" android:text="@string/settings" android:drawableLeft="@drawable/ic_title_sub" android:drawablePadding="5.0dip" />
+    <TextView android:textAppearance="?textAppearanceTitle" android:textSize="13.0sp" android:id="@id/title" android:background="@drawable/bg_set_title" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff5fc0e8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/normal_margin" android:layout_marginTop="@dimen/normal_margin" android:layout_marginRight="@dimen/normal_margin" android:text="@string/add_others" />
+    <TextView android:textSize="16.0dip" android:textColor="#ff535353" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/normal_margin" android:layout_marginTop="@dimen/normal_margin" android:layout_marginRight="@dimen/normal_margin" android:text="@string/add_others_summary" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/normal_margin">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/w_box" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="@dimen/special_imgh_half">
+            <ImageView android:padding="@dimen/special_margin" android:layout_width="@dimen/special_imgw" android:layout_height="wrap_content" android:src="@drawable/c_icon_01" android:scaleType="center" />
+            <View android:background="#ffdcdcdc" android:layout_width="2.0px" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/special_pad" android:layout_marginRight="@dimen/special_pad" />
+            <TextView android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/lock_cell" android:layout_weight="1.0" />
+            <com.lx.launcher8.view.SeekButton android:layout_gravity="center_vertical" android:id="@id/btn_lock_seekbutton" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="60.0dip" android:layout_height="25.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/w_box" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="@dimen/special_imgh_half">
+            <ImageView android:padding="@dimen/special_margin" android:layout_width="@dimen/special_imgw" android:layout_height="wrap_content" android:src="@drawable/c_icon_05" android:scaleType="center" />
+            <View android:background="#ffdcdcdc" android:layout_width="2.0px" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/special_pad" android:layout_marginRight="@dimen/special_pad" />
+            <TextView android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/menu_cell" android:layout_weight="1.0" />
+            <com.lx.launcher8.view.SeekButton android:layout_gravity="center_vertical" android:id="@id/btn_menu_seekbutton" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="60.0dip" android:layout_height="25.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/w_box" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="@dimen/special_imgh_half" android:layout_marginTop="@dimen/special_pad">
+            <ImageView android:padding="@dimen/special_margin" android:layout_width="@dimen/special_imgw" android:layout_height="wrap_content" android:src="@drawable/c_icon_04" android:scaleType="center" />
+            <View android:background="#ffdcdcdc" android:layout_width="2.0px" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/special_pad" android:layout_marginRight="@dimen/special_pad" />
+            <TextView android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/time_cell" android:layout_weight="1.0" />
+            <com.lx.launcher8.view.SeekButton android:layout_gravity="center_vertical" android:id="@id/btn_time_seekbutton" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="60.0dip" android:layout_height="25.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/w_box" android:paddingLeft="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="@dimen/special_imgh" android:layout_marginTop="@dimen/special_pad">
+            <ImageView android:padding="@dimen/special_margin" android:layout_width="@dimen/special_imgw" android:layout_height="wrap_content" android:src="@drawable/c_icon_02" android:scaleType="center" />
+            <View android:background="#ffdcdcdc" android:layout_width="2.0px" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/special_pad" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="@dimen/special_imgh_half" android:layout_weight="1.0">
+                    <TextView android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/contact_cell" android:layout_weight="1.0" />
+                    <Button android:textSize="13.0sp" android:textColor="@color/white" android:background="@drawable/btn_blue" android:visibility="gone" android:layout_width="@dimen/special_btn" android:layout_height="22.0dip" android:layout_marginTop="8.0dip" android:text="@string/refresh_contacts" />
+                    <com.lx.launcher8.view.SeekButton android:layout_gravity="center_vertical" android:id="@id/btn_contact_seekbutton" android:paddingLeft="@dimen/special_pad" android:paddingTop="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:paddingBottom="@dimen/special_pad" android:layout_width="60.0dip" android:layout_height="25.0dip" />
+                </LinearLayout>
+                <View android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="2.0px" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/btn_contact_refresh" android:background="@drawable/linear_selector" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="@dimen/special_imgh_half" android:layout_weight="1.0">
+                    <TextView android:textColor="#ff000000" android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/refresh_contacts" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ff989898" android:ellipsize="end" android:gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/refresh_contacts_about" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/w_box" android:paddingLeft="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="@dimen/special_imgh" android:layout_marginTop="@dimen/special_pad">
+            <ImageView android:padding="@dimen/special_margin" android:layout_width="@dimen/special_imgw" android:layout_height="wrap_content" android:src="@drawable/c_icon_03" android:scaleType="center" />
+            <View android:background="#ffdcdcdc" android:layout_width="2.0px" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/special_pad" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="@dimen/special_imgh_half" android:layout_weight="1.0">
+                    <TextView android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dynamic_gallery" android:layout_weight="1.0" />
+                    <Button android:textSize="13.0sp" android:textColor="@color/white" android:background="@drawable/btn_blue" android:visibility="gone" android:layout_width="@dimen/special_btn" android:layout_height="22.0dip" android:layout_marginTop="8.0dip" android:text="@string/specail_mn" />
+                    <com.lx.launcher8.view.SeekButton android:layout_gravity="center_vertical" android:id="@id/btn_gallery_seekbutton" android:paddingLeft="@dimen/special_pad" android:paddingTop="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:paddingBottom="@dimen/special_pad" android:layout_width="60.0dip" android:layout_height="25.0dip" />
+                </LinearLayout>
+                <View android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="2.0px" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/btn_gallery_mn" android:background="@drawable/linear_selector" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="@dimen/special_imgh_half" android:layout_weight="1.0">
+                    <TextView android:textColor="#ff000000" android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/specail_mn" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ff989898" android:ellipsize="end" android:gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_and_delete_dyn_tile_pic" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/w_box" android:paddingLeft="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="@dimen/special_imgh" android:layout_marginTop="@dimen/special_pad">
+            <ImageView android:padding="@dimen/special_margin" android:layout_width="@dimen/special_imgw" android:layout_height="wrap_content" android:src="@drawable/c_icon_06" android:scaleType="center" />
+            <View android:background="#ffdcdcdc" android:layout_width="2.0px" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/special_pad" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="@dimen/special_imgh_half" android:layout_weight="1.0">
+                    <TextView android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/flash_light" android:layout_weight="1.0" />
+                    <Button android:textSize="13.0sp" android:textColor="@color/white" android:background="@drawable/btn_blue" android:visibility="gone" android:layout_width="@dimen/special_btn" android:layout_height="22.0dip" android:layout_marginTop="8.0dip" android:text="@string/specail_ml" />
+                    <com.lx.launcher8.view.SeekButton android:layout_gravity="center_vertical" android:id="@id/btn_light_seekbutton" android:paddingLeft="@dimen/special_pad" android:paddingTop="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:paddingBottom="@dimen/special_pad" android:layout_width="60.0dip" android:layout_height="25.0dip" />
+                </LinearLayout>
+                <View android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="2.0px" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/btn_light_ml" android:background="@drawable/linear_selector" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="@dimen/special_imgh_half" android:layout_weight="1.0">
+                    <TextView android:textColor="#ff000000" android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/specail_ml" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ff989898" android:ellipsize="end" android:gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/set_lit_long_and_mode" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service android:description="@string/service_description" android:accessibilityEventTypes="@integer/event_type" android:accessibilityFeedbackType="@integer/feedback_type" android:notificationTimeout="@integer/notification_timeout" android:accessibilityFlags="@integer/accessibilty_flag"
+  xmlns:android="http://Schemas.android.com/apk/res/android" />

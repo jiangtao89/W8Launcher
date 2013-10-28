@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff036eb1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/layout_menu_refresh_app" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/refresh_app" android:drawableTop="@drawable/menu_refresh_b" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/layout_menu_thoose_theme" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/switch_list" android:drawableTop="@drawable/menu_switch_b" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/layout_menu_sort" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_list_sort" android:drawableTop="@drawable/menu_sort_b" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/layout_menu_hide_app" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hidden_application" android:drawableTop="@drawable/menu_hide_b" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/layout_menu_search" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_list_search" android:drawableTop="@drawable/menu_batch_addb" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+        <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/layout_menu_applist_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_list_setting" android:drawableTop="@drawable/menu_list_b" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

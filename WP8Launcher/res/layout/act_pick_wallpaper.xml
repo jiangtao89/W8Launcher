@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?attr/mainStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceTitle" android:textSize="18.0sp" android:gravity="center_vertical" android:id="@id/set_item_title_first_title" android:background="@drawable/bg_set_title" android:paddingLeft="5.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" android:text="@string/choose_wallpaper" android:drawableLeft="@drawable/ic_title_sub" android:drawablePadding="5.0dip" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff31b2e7" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/choose_wallpaper" />
+    <ScrollView android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/w_box" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/desk_wallpaper_linear" android:background="@drawable/linear_selector" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/desk_wallpaper_iv" android:background="@drawable/s_box" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="bottom|right|center" android:id="@id/desk_wallpaper_selected_tv" android:background="#ff31b2e7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/selected" />
+                </FrameLayout>
+                <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/desk_wallpaper" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/more_go" />
+            </LinearLayout>
+            <View android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/lockscreen_wallpaper_linear" android:background="@drawable/linear_selector" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/lockscreen_wallpaper_iv" android:background="@drawable/s_box" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="bottom|right|center" android:id="@id/lockscreen_wallpaper_selected_tv" android:background="#ff31b2e7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/selected" />
+                </FrameLayout>
+                <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/lockscreen_wallpaper" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/more_go" />
+            </LinearLayout>
+            <View android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/dyn_wallpaper_linear" android:background="@drawable/linear_selector" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/dyn_wallpaper_iv" android:background="@drawable/s_box" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:adjustViewBounds="true" />
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="bottom|right|center" android:id="@id/dyn_wallpaper_selected_tv" android:background="#ff31b2e7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/selected" />
+                </FrameLayout>
+                <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/dyn_wallpaper" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/more_go" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

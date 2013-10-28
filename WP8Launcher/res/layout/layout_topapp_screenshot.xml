@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="#ff434343" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="120.0dip" android:src="@drawable/pic_loading" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/iv_image" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:adjustViewBounds="true" />
+</RelativeLayout>

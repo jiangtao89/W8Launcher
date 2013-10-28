@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:padding="5.0dip" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?textAppearancePrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/theme_color" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/setting_theme_choose_color" android:background="@drawable/item_selector" android:focusable="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:textColor="#00000000" android:id="@id/setting_theme_color" android:background="#ff31b2e7" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="10.0dip" android:singleLine="true" />
+            <TextView android:textAppearance="?textAppearanceSecondary" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/change_theme_color" />
+        </LinearLayout>
+        <TextView android:textAppearance="?textAppearancePrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/historical_themes" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/theme_save_current" android:singleLine="true" android:layout_weight="1.0" />
+            <Button android:id="@id/setting_theme_save_history" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/theme_save" style="?attr/buttonStyleRect" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/historical_themes_about" android:singleLine="true" android:layout_weight="1.0" />
+            <Button android:id="@id/setting_theme_choose_history" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/choose_theme" style="?attr/buttonStyleRect" />
+        </LinearLayout>
+        <TextView android:textAppearance="?textAppearancePrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/is_show_statusbar" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:id="@id/setting_theme_show_status_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/show_statusbar_close" android:singleLine="true" android:layout_weight="1.0" />
+            <com.lx.launcher8.view.SeekButton android:id="@id/setting_theme_status_bar_choose" android:layout_width="70.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textAppearance="?textAppearancePrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/cell_preview" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:id="@id/display_text_in_cell" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/preview_cell_open" android:singleLine="true" android:layout_weight="1.0" />
+            <com.lx.launcher8.view.SeekButton android:id="@id/display_text_in_cell_choose" android:layout_width="70.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textAppearance="?textAppearancePrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/lock_launcher" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:id="@id/lock_launcher" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lock_launcher_open" android:singleLine="true" android:layout_weight="1.0" />
+            <com.lx.launcher8.view.SeekButton android:id="@id/lock_launcher_choose" android:layout_width="70.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textAppearance="?textAppearancePrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/desk_scroll" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:id="@id/setting_theme_scroll_about" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/desk_scroll_open" android:singleLine="true" android:layout_weight="1.0" />
+            <com.lx.launcher8.view.SeekButton android:id="@id/setting_theme_scroll_choose" android:layout_width="70.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:id="@id/setting_theme_aniamtin_about" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/animation_open" android:singleLine="true" android:layout_weight="1.0" />
+            <com.lx.launcher8.view.SeekButton android:id="@id/setting_theme_aniamtin_choose" android:layout_width="70.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textAppearance="?textAppearancePrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/wallpaper_theme" />
+        <com.lx.launcher8.view.MutiChooseView android:id="@id/settings_theme_wallpaper_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+        <TextView android:textAppearance="?textAppearancePrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/cell_gap" />
+        <com.lx.launcher8.view.MutiChooseView android:id="@id/settings_cell_gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+    </LinearLayout>
+</ScrollView>

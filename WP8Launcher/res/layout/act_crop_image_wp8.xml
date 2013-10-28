@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@*android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <view android:id="@id/image" android:background="#55000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" class="com.lx.launcher8.crop.CropImageView" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/bottom_linear" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textSize="16.0sp" android:gravity="center" android:id="@id/save" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="@string/crop_save_text" android:layout_weight="1.0" />
+            <Button android:textSize="16.0sp" android:gravity="center" android:id="@id/select" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/crop_select_text" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

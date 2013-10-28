@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/set_item_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?attr/mainStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingTop="@dimen/set_item_margin" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="#ff535353" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_list_style" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/w_box" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip">
+            <com.lx.launcher8.view.SettingLinearLayout android:id="@id/select_app_list_style" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <com.lx.launcher8.view.SettingLinearLayout android:id="@id/refresh_app_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingTop="@dimen/set_item_margin" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="#ff535353" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/color_settings" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/w_box" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip">
+            <com.lx.launcher8.view.SettingLinearLayout android:id="@id/icon_bg_color_with_theme" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <com.lx.launcher8.view.SettingLinearLayout android:id="@id/icon_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <com.lx.launcher8.view.SettingLinearLayout android:id="@id/icon_bg_alpha" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <com.lx.launcher8.view.SettingLinearLayout android:id="@id/app_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingTop="@dimen/set_item_margin" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/w_box" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip">
+            <com.lx.launcher8.view.SettingLinearLayout android:id="@id/letter_retrieval" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <com.lx.launcher8.view.SettingLinearLayout android:id="@id/hidden_apps" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

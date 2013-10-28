@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/linear_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="#ff959595" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/normal_margin" android:layout_marginTop="@dimen/normal_margin" android:layout_marginRight="@dimen/normal_margin" android:text="@string/add_others_summary" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/normal_margin">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/special_pad">
+                <FrameLayout android:background="#ffeeeeee" android:padding="@dimen/special_pad" android:layout_width="@dimen/special_imgw" android:layout_height="@dimen/special_imgw">
+                    <ImageView android:layout_gravity="center" android:layout_width="@dimen/special_imgw" android:layout_height="wrap_content" android:src="@drawable/c_icon_01" android:scaleType="center" />
+                </FrameLayout>
+                <TextView android:textAppearance="?textAppearancePrimary" android:gravity="center_vertical" android:id="@id/btn_lock_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/special_pad" android:text="@string/lock_cell" android:layout_weight="1.0" />
+                <com.lx.launcher8.setting.wp8.view.SeekButton android:layout_gravity="center_vertical" android:id="@id/btn_lock_seekbutton" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="@dimen/special_btn_width" android:layout_height="@dimen/special_btn_height" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/special_pad">
+                <FrameLayout android:background="#ffeeeeee" android:padding="@dimen/special_pad" android:layout_width="@dimen/special_imgw" android:layout_height="@dimen/special_imgw">
+                    <ImageView android:layout_gravity="center" android:layout_width="@dimen/special_imgw" android:layout_height="wrap_content" android:src="@drawable/c_icon_05" android:scaleType="center" />
+                </FrameLayout>
+                <TextView android:textAppearance="?textAppearancePrimary" android:gravity="center_vertical" android:id="@id/btn_menu_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/special_pad" android:text="@string/menu_cell" android:layout_weight="1.0" />
+                <com.lx.launcher8.setting.wp8.view.SeekButton android:layout_gravity="center_vertical" android:id="@id/btn_menu_seekbutton" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="@dimen/special_btn_width" android:layout_height="@dimen/special_btn_height" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/special_pad">
+                <FrameLayout android:background="#ffeeeeee" android:padding="@dimen/special_pad" android:layout_width="@dimen/special_imgw" android:layout_height="@dimen/special_imgw">
+                    <ImageView android:layout_gravity="center" android:layout_width="@dimen/special_imgw" android:layout_height="wrap_content" android:src="@drawable/search_i" android:scaleType="center" />
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/special_pad">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="?textAppearancePrimary" android:gravity="center_vertical" android:id="@id/btn_search_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/search_cell" android:layout_weight="1.0" />
+                        <com.lx.launcher8.setting.wp8.view.SeekButton android:layout_gravity="center_vertical" android:id="@id/btn_search_seekbutton" android:paddingLeft="@dimen/special_pad" android:paddingTop="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:paddingBottom="@dimen/special_pad" android:layout_width="@dimen/special_btn_width" android:layout_height="@dimen/special_btn_height" />
+                    </LinearLayout>
+                    <com.lx.launcher8.view.AnimationLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/btn_search_ss" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/special_pad">
+                        <TextView android:textAppearance="?textAppearancePrimary" android:gravity="center_vertical" android:id="@id/search_ss_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/search_set" android:layout_weight="1.0" />
+                        <TextView android:textSize="14.0sp" android:textColor="#ff989898" android:ellipsize="end" android:gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/set_privacy_mode_and_clear" android:singleLine="true" />
+                    </com.lx.launcher8.view.AnimationLinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/special_pad" android:layout_marginBottom="@dimen/special_pad">
+                <FrameLayout android:background="#ffeeeeee" android:padding="@dimen/special_pad" android:layout_width="@dimen/special_imgw" android:layout_height="@dimen/special_imgw">
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c_icon_04" android:scaleType="center" />
+                </FrameLayout>
+                <TextView android:textAppearance="?textAppearancePrimary" android:gravity="center_vertical" android:id="@id/btn_time_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/special_pad" android:text="@string/time_cell" android:layout_weight="1.0" />
+                <com.lx.launcher8.setting.wp8.view.SeekButton android:layout_gravity="center_vertical" android:id="@id/btn_time_seekbutton" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="@dimen/special_btn_width" android:layout_height="@dimen/special_btn_height" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/special_pad" android:layout_marginBottom="@dimen/special_pad">
+                <FrameLayout android:background="#ffeeeeee" android:padding="@dimen/special_pad" android:layout_width="@dimen/special_imgw" android:layout_height="@dimen/special_imgw">
+                    <ImageView android:layout_gravity="center" android:layout_width="@dimen/special_imgw" android:layout_height="wrap_content" android:src="@drawable/c_icon_02" android:scaleType="center" />
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/special_pad">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="?textAppearancePrimary" android:gravity="center_vertical" android:id="@id/btn_contact_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/contact_cell" android:layout_weight="1.0" />
+                        <com.lx.launcher8.setting.wp8.view.SeekButton android:layout_gravity="center_vertical" android:id="@id/btn_contact_seekbutton" android:paddingLeft="@dimen/special_pad" android:paddingTop="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:paddingBottom="@dimen/special_pad" android:layout_width="@dimen/special_btn_width" android:layout_height="@dimen/special_btn_height" />
+                    </LinearLayout>
+                    <com.lx.launcher8.view.AnimationLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/btn_contact_refresh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/special_pad">
+                        <TextView android:textAppearance="?textAppearancePrimary" android:gravity="center_vertical" android:id="@id/refresh_contacts_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/refresh_contacts" android:layout_weight="1.0" />
+                        <TextView android:textSize="14.0sp" android:textColor="#ff989898" android:ellipsize="end" android:gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/refresh_contacts_about" android:singleLine="true" />
+                    </com.lx.launcher8.view.AnimationLinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/special_pad">
+                <FrameLayout android:background="#ffeeeeee" android:padding="@dimen/special_pad" android:layout_width="@dimen/special_imgw" android:layout_height="@dimen/special_imgw">
+                    <ImageView android:layout_gravity="center" android:layout_width="@dimen/special_imgw" android:layout_height="wrap_content" android:src="@drawable/c_icon_03" android:scaleType="center" />
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/special_pad">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="?textAppearancePrimary" android:gravity="center_vertical" android:id="@id/btn_gallery_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dynamic_gallery" android:layout_weight="1.0" />
+                        <com.lx.launcher8.setting.wp8.view.SeekButton android:layout_gravity="center_vertical" android:id="@id/btn_gallery_seekbutton" android:paddingLeft="@dimen/special_pad" android:paddingTop="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:paddingBottom="@dimen/special_pad" android:layout_width="@dimen/special_btn_width" android:layout_height="@dimen/special_btn_height" />
+                    </LinearLayout>
+                    <com.lx.launcher8.view.AnimationLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/btn_gallery_mn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/special_pad">
+                        <TextView android:textAppearance="?textAppearancePrimary" android:gravity="center_vertical" android:id="@id/special_mn_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/specail_mn" android:layout_weight="1.0" />
+                        <TextView android:textSize="14.0sp" android:textColor="#ff989898" android:ellipsize="end" android:gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_and_delete_dyn_tile_pic" android:singleLine="true" />
+                    </com.lx.launcher8.view.AnimationLinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/special_pad">
+                <FrameLayout android:background="#ffeeeeee" android:padding="@dimen/special_pad" android:layout_width="@dimen/special_imgw" android:layout_height="@dimen/special_imgw">
+                    <ImageView android:layout_gravity="center" android:layout_width="@dimen/special_imgw" android:layout_height="wrap_content" android:src="@drawable/c_icon_06" android:scaleType="center" />
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/special_pad">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="?textAppearancePrimary" android:gravity="center_vertical" android:id="@id/btn_light_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/flash_light" android:layout_weight="1.0" />
+                        <com.lx.launcher8.setting.wp8.view.SeekButton android:layout_gravity="center_vertical" android:id="@id/btn_light_seekbutton" android:paddingLeft="@dimen/special_pad" android:paddingTop="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:paddingBottom="@dimen/special_pad" android:layout_width="@dimen/special_btn_width" android:layout_height="@dimen/special_btn_height" />
+                    </LinearLayout>
+                    <com.lx.launcher8.view.AnimationLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/btn_light_ml" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/special_pad">
+                        <TextView android:textAppearance="?textAppearancePrimary" android:gravity="center_vertical" android:id="@id/light_ml_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/specail_ml" android:layout_weight="1.0" />
+                        <TextView android:textSize="14.0sp" android:textColor="#ff989898" android:ellipsize="end" android:gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/set_lit_long_and_mode" android:singleLine="true" />
+                    </com.lx.launcher8.view.AnimationLinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/special_pad" android:layout_marginBottom="@dimen/special_pad">
+                <FrameLayout android:background="#ffeeeeee" android:padding="@dimen/special_pad" android:layout_width="@dimen/special_imgw" android:layout_height="@dimen/special_imgw">
+                    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/c_icon_08" android:scaleType="center" />
+                </FrameLayout>
+                <TextView android:textAppearance="?textAppearancePrimary" android:gravity="center_vertical" android:id="@id/btn_theme_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/special_pad" android:text="@string/theme_cell" android:layout_weight="1.0" />
+                <com.lx.launcher8.setting.wp8.view.SeekButton android:layout_gravity="center_vertical" android:id="@id/btn_theme_seekbutton" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="@dimen/special_btn_width" android:layout_height="@dimen/special_btn_height" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/special_pad">
+                <FrameLayout android:background="#ffeeeeee" android:padding="@dimen/special_pad" android:layout_width="@dimen/special_imgw" android:layout_height="@dimen/special_imgw">
+                    <ImageView android:layout_gravity="center" android:layout_width="@dimen/special_imgw" android:layout_height="wrap_content" android:src="@drawable/c_icon_07" android:scaleType="center" />
+                </FrameLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/special_pad">
+                    <TextView android:textAppearance="?textAppearancePrimary" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/btn_topapp_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/top_app" android:layout_weight="1.0" />
+                    <com.lx.launcher8.setting.wp8.view.SeekButton android:layout_gravity="center_vertical" android:id="@id/btn_topapp_seekbutton" android:paddingLeft="@dimen/special_pad" android:paddingTop="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:paddingBottom="@dimen/special_pad" android:layout_width="@dimen/special_btn_width" android:layout_height="@dimen/special_btn_height" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/special_pad" android:visibility="gone">
+                <FrameLayout android:background="#ffeeeeee" android:padding="@dimen/special_pad" android:layout_width="@dimen/special_imgw" android:layout_height="@dimen/special_imgw">
+                    <ImageView android:layout_gravity="center" android:layout_width="@dimen/special_imgw" android:layout_height="wrap_content" android:src="@drawable/more_share" android:scaleType="center" />
+                </FrameLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/special_pad">
+                    <TextView android:textAppearance="?textAppearancePrimary" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/btn_share_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/share_cell" android:layout_weight="1.0" />
+                    <com.lx.launcher8.setting.wp8.view.SeekButton android:layout_gravity="center_vertical" android:id="@id/btn_share_seekbutton" android:paddingLeft="@dimen/special_pad" android:paddingTop="@dimen/special_pad" android:paddingRight="@dimen/special_pad" android:paddingBottom="@dimen/special_pad" android:layout_width="@dimen/special_btn_width" android:layout_height="@dimen/special_btn_height" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

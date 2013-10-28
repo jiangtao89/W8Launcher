@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="event_type">64</integer>
+    <integer name="feedback_type">8</integer>
+    <integer name="notification_timeout">0</integer>
+    <integer name="accessibilty_flag">1</integer>
+</resources>

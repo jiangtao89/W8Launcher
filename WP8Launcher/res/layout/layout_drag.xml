@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/drag_mirror" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="12.0dip" />
+    <ImageButton android:layout_gravity="top|left|center" android:id="@id/drag_edit" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_drag_setting" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <ImageButton android:layout_gravity="top|right|center" android:id="@id/drag_del" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_drag_del" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <ImageButton android:layout_gravity="bottom|right|center" android:id="@id/drag_level" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_cell_level" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

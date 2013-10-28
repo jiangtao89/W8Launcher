@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.lx.launcher8.view.IntPreference android:key="ThemeColor" android:defaultValue="-16663309" />
+    <com.lx.launcher8.view.IntPreference android:key="ThemeWallPaper" android:defaultValue="1" />
+    <com.lx.launcher8.view.IntPreference android:key="ThemeStatusBar" android:defaultValue="0" />
+    <com.lx.launcher8.view.IntPreference android:key="ThemeLock" android:defaultValue="0" />
+    <com.lx.launcher8.view.IntPreference android:key="CellText" android:defaultValue="0" />
+    <CheckBoxPreference android:key="Locklauncher" android:defaultValue="true" />
+    <com.lx.launcher8.view.IntPreference android:key="ScrollAllowed" android:defaultValue="1" />
+    <com.lx.launcher8.view.IntPreference android:key="AnimationSwitch" android:defaultValue="0" />
+    <com.lx.launcher8.view.IntPreference android:key="CellGap" android:defaultValue="10" />
+    <com.lx.launcher8.view.IntPreference android:key="SettingStyle" android:defaultValue="1" />
+    <com.lx.launcher8.view.IntPreference android:key="ThemeAppTextColor" android:defaultValue="-1" />
+    <CheckBoxPreference android:key="ThemeAppHeader" android:defaultValue="true" />
+    <com.lx.launcher8.view.IntPreference android:key="ThemeAppList" android:defaultValue="0" />
+    <com.lx.launcher8.view.IntPreference android:key="AppIconColor" android:defaultValue="-1" />
+    <com.lx.launcher8.view.IntPreference android:key="LockTheme" android:defaultValue="4" />
+    <com.lx.launcher8.view.IntPreference android:key="LockStatusBar" android:defaultValue="1" />
+    <EditTextPreference android:key="ThemeLockBg" android:defaultValue="none" />
+    <com.lx.launcher8.view.IntPreference android:key="ThemeLockColor" android:defaultValue="-1" />
+</PreferenceScreen>

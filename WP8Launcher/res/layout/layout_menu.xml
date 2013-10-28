@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ff036eb1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/layout_menu_save" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/edit_theme" android:drawableTop="@drawable/menu_edit" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/layout_menu_add" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_widget" android:drawableTop="@drawable/menu_add" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/layout_menu_theme" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/system_theme" android:drawableTop="@drawable/menu_theme" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/layout_menu_wallpaper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/choose_wallpaper" android:drawableTop="@drawable/menu_wallpaper" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/layout_menu_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/system_settings" android:drawableTop="@drawable/menu_setting" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/layout_menu_more" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/about_more" android:drawableTop="@drawable/menu_more" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/layout_menu_more_doc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/about_more" android:drawableTop="@drawable/menu_more_doc" android:drawablePadding="5.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

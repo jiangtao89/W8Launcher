@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?attr/mainStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceTitle" android:textSize="18.0sp" android:gravity="center_vertical" android:id="@id/set_item_title_first_title" android:background="@drawable/bg_set_title" android:paddingLeft="5.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" android:text="@string/settings" android:drawableLeft="@drawable/ic_title_sub" android:drawablePadding="5.0dip" />
+    <ScrollView android:background="#ffe9e9e9" android:scrollbars="none" android:fadingEdge="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/main_linear" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/w_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip">
+                <com.lx.launcher8.view.SettingLinearLayout android:id="@id/text_position_linear" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <View android:background="#ffdcdcdc" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <com.lx.launcher8.view.SettingLinearLayout android:id="@id/text_color_linear" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

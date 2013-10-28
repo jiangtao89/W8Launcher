@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.anall.screenlock.LockLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <view android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.lx.launcher8.view.AlphaLayout">
+        <LinearLayout android:layout_gravity="bottom|left|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginBottom="70.0dip">
+            <TextView android:textSize="20.0dip" android:textColor="@*android:color/white" android:layout_gravity="center_vertical" android:id="@id/act_lock_screen_week" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="20.0dip" android:textColor="@*android:color/white" android:layout_gravity="center_vertical" android:id="@id/act_lock_screen_date" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:layout_gravity="bottom|right|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_marginBottom="60.0dip">
+            <TextView android:textSize="54.0dip" android:textColor="@*android:color/white" android:gravity="top" android:id="@id/act_lock_screen_time" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            <TextView android:textSize="20.0dip" android:textColor="@*android:color/white" android:gravity="top" android:id="@id/act_lock_screen_time_pm" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="10.0dip" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom|left|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginBottom="15.0dip">
+            <Button android:textSize="35.0dip" android:textColor="@*android:color/white" android:gravity="bottom" android:id="@id/act_lock_screen_call" android:background="@*android:color/transparent" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:drawableLeft="@drawable/lock_ic_phone" android:drawablePadding="3.0dip" />
+            <Button android:textSize="35.0dip" android:textColor="@*android:color/white" android:gravity="bottom" android:id="@id/act_lock_screen_msg" android:background="@*android:color/transparent" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:drawableLeft="@drawable/lock_ic_message" android:drawablePadding="3.0dip" />
+        </LinearLayout>
+        <view android:layout_gravity="bottom" android:id="@id/layout_notice" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="10.0dip" android:layout_marginBottom="5.0dip" class="com.anall.screenlock.NotifyView" />
+    </view>
+</view>

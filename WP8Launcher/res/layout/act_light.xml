@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main_layout" android:background="@drawable/flashlight_01" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/close_button" android:background="@drawable/bg_button_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="15.0sp" android:id="@id/power" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <SurfaceView android:id="@id/light_sv" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+</RelativeLayout>

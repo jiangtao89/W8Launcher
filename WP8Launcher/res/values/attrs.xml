@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textAppearanceTitle" format="reference" />
+    <attr name="textAppearancePrimary" format="reference" />
+    <attr name="textAppearanceSecondary" format="reference" />
+    <attr name="textColorTitle" format="reference" />
+    <attr name="textColorPrimary" format="color" />
+    <attr name="textColorSecondary" format="color" />
+    <attr name="mainStyle" format="reference|color" />
+    <attr name="buttonStyleRect" format="reference" />
+    <attr name="titleFlowStyle" format="reference" />
+    <attr name="applistStyle" format="reference" />
+    <attr name="radioStyle" format="reference" />
+    <attr name="normalColor" format="color" />
+    <attr name="textSize" format="dimension" />
+    <attr name="titlePadding" format="dimension" />
+    <attr name="selectedColor" format="color" />
+    <attr name="selectedBold" format="boolean" />
+    <attr name="selectedSize" format="dimension" />
+    <attr name="packageName" format="string" />
+    <attr name="className" format="string" />
+    <attr name="action" format="string" />
+    <attr name="title" format="string" />
+    <attr name="cellX" format="integer" />
+    <attr name="cellY" format="integer" />
+    <attr name="spanX" format="integer" />
+    <attr name="spanY" format="integer" />
+    <attr name="cellType" format="integer" />
+    <attr name="textColor" format="integer" />
+    <attr name="backColor" format="integer" />
+    <attr name="gravity" format="integer" />
+    <attr name="style" format="integer" />
+    <attr name="icon" format="string" />
+</resources>

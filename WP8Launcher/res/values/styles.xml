@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="launcherTheme" parent="@*android:style/Theme.Wallpaper">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="EditText" parent="@*android:style/Widget.EditText">
+        <item name="android:background">@drawable/bg_header_stroke</item>
+    </style>
+    <style name="AnimationPreview">
+        <item name="android:windowEnterAnimation">@anim/top_in_02</item>
+        <item name="android:windowExitAnimation">@anim/top_out_02</item>
+    </style>
+    <style name="lockStyle" parent="@*android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="dialog" parent="@*android:style/Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:background">@*android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="noTitleDialog" parent="@*android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/translucent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="radioButton" parent="@*android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawableLeft">@drawable/radio_button</item>
+        <item name="android:drawablePadding">2.0dip</item>
+    </style>
+    <style name="radioButtonWP8" parent="@*android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawableLeft">@drawable/radio_button_wp8</item>
+        <item name="android:drawablePadding">2.0dip</item>
+    </style>
+    <style name="keyStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#ff383838</item>
+        <item name="android:layout_height">@dimen/lock_keyboard</item>
+    </style>
+    <style name="progressBarStyleCustomDefault">
+        <item name="android:maxWidth">22.0dip</item>
+        <item name="android:maxHeight">22.0dip</item>
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_small</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:minWidth">22.0dip</item>
+        <item name="android:minHeight">22.0dip</item>
+    </style>
+    <style name="pop_anim_style">
+        <item name="android:windowEnterAnimation">@*android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@*android:anim/fade_out</item>
+    </style>
+    <style name="Theme" parent="@*android:style/Theme.Light.NoTitleBar">
+        <item name="textAppearanceTitle">@style/TextAppearance.Title</item>
+        <item name="textAppearancePrimary">@style/TextAppearance.Primary</item>
+        <item name="textAppearanceSecondary">@style/TextAppearance.Secondary</item>
+        <item name="textColorTitle">@color/white</item>
+        <item name="textColorPrimary">@color/black</item>
+        <item name="textColorSecondary">@color/deep_black</item>
+        <item name="mainStyle">@style/mainStyleDefault</item>
+        <item name="buttonStyleRect">@style/buttonStyleRectDefault</item>
+        <item name="titleFlowStyle">@style/titleFlowStyleDefault</item>
+        <item name="applistStyle">@style/applistStyleDefault</item>
+        <item name="radioStyle">@style/radioStyleDefault</item>
+    </style>
+    <style name="Theme.Black" parent="@style/Theme">
+        <item name="textColorPrimary">@color/white</item>
+        <item name="mainStyle">@style/mainStyleBlack</item>
+        <item name="buttonStyleRect">@style/buttonStyleRectDefault</item>
+        <item name="titleFlowStyle">@style/titleFlowStyleDefault</item>
+        <item name="applistStyle">@style/applistStyleBlack</item>
+    </style>
+    <style name="TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHighlight">#ffff9200</item>
+        <item name="android:textColorHint">#87654321</item>
+        <item name="android:textColorLink">#ff5c5cff</item>
+    </style>
+    <style name="TextAppearance.Title" parent="@style/TextAppearance">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">?textColorTitle</item>
+    </style>
+    <style name="TextAppearance.Primary" parent="@style/TextAppearance">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">?textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Secondary" parent="@style/TextAppearance">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">?textColorSecondary</item>
+    </style>
+    <style name="listViewStyleDefault">
+        <item name="android:listSelector">@drawable/listitem_selector</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">@color/darker_gray</item>
+        <item name="android:dividerHeight">1.0px</item>
+    </style>
+    <style name="mainStyleDefault">
+        <item name="android:background">#ffe9e9e9</item>
+    </style>
+    <style name="mainStyleBlack">
+        <item name="android:background">@color/black</item>
+    </style>
+    <style name="buttonStyleRectDefault">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_rect_black</item>
+        <item name="android:padding">10.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="buttonStyleRectBlack">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_rect_wihte</item>
+        <item name="android:padding">10.0dip</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="titleFlowStyleDefault">
+        <item name="normalColor">@color/dark</item>
+        <item name="textSize">48.0sp</item>
+        <item name="titlePadding">32.0dip</item>
+        <item name="selectedColor">@color/black</item>
+        <item name="selectedSize">48.0sp</item>
+    </style>
+    <style name="titleFlowStyleBlack">
+        <item name="normalColor">@color/dark</item>
+        <item name="textSize">48.0sp</item>
+        <item name="titlePadding">32.0dip</item>
+        <item name="selectedColor">@color/white</item>
+        <item name="selectedSize">48.0sp</item>
+    </style>
+    <style name="applistStyleDefault">
+        <item name="android:background">#00000000</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">#ffdcdcdc</item>
+        <item name="android:dividerHeight">1.0px</item>
+    </style>
+    <style name="applistStyleBlack">
+        <item name="android:background">#00000000</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">#ffdcdcdc</item>
+        <item name="android:dividerHeight">0.0px</item>
+    </style>
+    <style name="radioStyleDefault" parent="@*android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:background">@drawable/listitem_selector</item>
+        <item name="android:button">@null</item>
+    </style>
+</resources>

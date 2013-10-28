@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:padding="5.0dip" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?textAppearancePrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/color_of_applist" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/setting_applist_choose_color" android:background="@drawable/item_selector" android:focusable="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:textColor="#00000000" android:id="@id/setting_applist_color" android:background="#ff31b2e7" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="10.0dip" android:singleLine="true" />
+            <TextView android:textColor="@color/deep_black" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/change_applist_text_color" />
+        </LinearLayout>
+        <TextView android:textAppearance="?textAppearancePrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/app_icon_color" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:id="@id/setting_applist_follow_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/follow_theme_open" android:singleLine="true" android:layout_weight="1.0" />
+            <com.lx.launcher8.view.SeekButton android:id="@id/setting_applist_icon_open" android:layout_width="70.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/setting_applist_choose_icon_color" android:background="@drawable/item_selector" android:focusable="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:textColor="#00000000" android:id="@id/setting_applist_icon_color" android:background="#ff31b2e7" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="10.0dip" android:singleLine="true" />
+            <TextView android:textColor="@color/deep_black" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_icon_color_choose" />
+        </LinearLayout>
+        <TextView android:textAppearance="?textAppearancePrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/invisible_applist" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:id="@id/setting_applist_visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/invisible_applist_about" android:singleLine="true" android:layout_weight="1.0" />
+            <Button android:id="@id/setting_applist_visible_choose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/choose_app" style="?attr/buttonStyleRect" />
+        </LinearLayout>
+        <TextView android:textAppearance="?textAppearancePrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/refresh_applist" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/refresh_applist_about" android:singleLine="true" android:layout_weight="1.0" />
+            <Button android:id="@id/setting_applist_refresh_choose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/refresh" style="?attr/buttonStyleRect" />
+        </LinearLayout>
+        <TextView android:textAppearance="?textAppearancePrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/refresh_contacts" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/refresh_contacts_about" android:singleLine="true" android:layout_weight="1.0" />
+            <Button android:id="@id/setting_contacts_refresh_choose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/refresh" style="?attr/buttonStyleRect" />
+        </LinearLayout>
+        <TextView android:textAppearance="?textAppearancePrimary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/set_gallerys" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:id="@id/setting_gallerys" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/set_gallerys_about" android:singleLine="true" android:layout_weight="1.0" />
+            <Button android:id="@id/setting_gallerys_choose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/choose_pic" style="?attr/buttonStyleRect" />
+        </LinearLayout>
+        <TextView android:textAppearance="?textAppearancePrimary" android:id="@id/setting_applist_title_04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/navigation" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:id="@id/setting_applist_navigation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/show_navigation_open" android:singleLine="true" android:layout_weight="1.0" />
+            <com.lx.launcher8.view.SeekButton android:id="@id/setting_applist_navigation_choose" android:layout_width="70.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

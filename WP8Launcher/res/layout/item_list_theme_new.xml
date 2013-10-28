@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/item_fl" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/item_loading" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_theme_defalt" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff7d7d7d" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" />
+        </LinearLayout>
+        <ImageView android:id="@id/item_screen_shot" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:adjustViewBounds="true" />
+    </FrameLayout>
+    <TextView android:textSize="14.0sp" android:ellipsize="marquee" android:gravity="center" android:id="@id/item_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" />
+</LinearLayout>

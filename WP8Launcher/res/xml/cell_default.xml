@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Cells xmlns:launcher="http://schemas.android.com/apk/res/com.lx.launcher8" >
+    <Cell
+        launcher:action="android.intent.action.DIAL"
+        launcher:cellType="229376"
+        launcher:cellX="0"
+        launcher:cellY="0"
+        launcher:gravity="131840"
+        launcher:icon="pic/phone.png"
+        launcher:spanX="2"
+        launcher:spanY="2"
+        />
+
+    <Cell
+        launcher:cellType="229376"
+        launcher:cellX="2"
+        launcher:cellY="0"
+        launcher:className="com.android.mms.ui.ConversationList"
+        launcher:gravity="66304"
+        launcher:icon="pic/message.png"
+        launcher:packageName="com.android.mms"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:title="@string/message" />
+
+    <Cell
+        launcher:cellType="229376"
+        launcher:cellX="3"
+        launcher:cellY="0"
+        launcher:className="com.android.browser.BrowserActivity"
+        launcher:gravity="768"
+        launcher:icon="pic/ie.png"
+        launcher:packageName="com.android.browser"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:title="@string/browser" />
+
+    <Cell
+        launcher:cellType="229376"
+        launcher:cellX="2"
+        launcher:cellY="1"
+        launcher:className="com.android.email.activity.Welcome"
+        launcher:gravity="768"
+        launcher:icon="pic/mail.png"
+        launcher:packageName="com.android.email"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:title="@string/email" />
+
+    <Cell
+        launcher:action="android.settings.SETTINGS"
+        launcher:backColor="-10442473"
+        launcher:cellType="229376"
+        launcher:cellX="3"
+        launcher:cellY="1"
+        launcher:gravity="768"
+        launcher:icon="pic/setting.png"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:title="@string/settings" />
+
+    <Cell
+        launcher:cellType="229376"
+        launcher:cellX="0"
+        launcher:cellY="2"
+        launcher:className="com.android.deskclock.DeskClock"
+        launcher:gravity="768"
+        launcher:icon="pic/clock.png"
+        launcher:packageName="com.android.deskclock"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:title="@string/clock" />
+
+    <Cell
+        launcher:cellType="229376"
+        launcher:cellX="1"
+        launcher:cellY="2"
+        launcher:className="com.android.camera.Camera"
+        launcher:gravity="768"
+        launcher:icon="pic/camera.png"
+        launcher:packageName="com.android.gallery3d"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:title="@string/camera" />
+
+    <Cell
+        launcher:backColor="-10442473"
+        launcher:cellType="229376"
+        launcher:cellX="0"
+        launcher:cellY="3"
+        launcher:className="com.android.music.MusicBrowserActivity"
+        launcher:gravity="768"
+        launcher:icon="pic/headphone.png"
+        launcher:packageName="com.android.music"
+        launcher:spanX="2"
+        launcher:spanY="1" 
+        launcher:title="@string/music"/>
+
+    <Cell
+        launcher:cellType="229382"
+        launcher:cellX="2"
+        launcher:cellY="2"
+        launcher:className="com.android.contacts.DialtactsContactsEntryActivity"
+        launcher:gravity="768"
+        launcher:icon="pic/contacts.png"
+        launcher:packageName="com.android.contacts"
+        launcher:spanX="2"
+        launcher:spanY="2" 
+        launcher:title="@string/contacts"/>
+
+    <Cell
+        launcher:cellType="163844"
+        launcher:cellX="0"
+        launcher:cellY="4"
+        launcher:className="com.android.settings.DateTimeSettings"
+        launcher:gravity="768"
+        launcher:packageName="com.android.settings"
+        launcher:spanX="4"
+        launcher:spanY="2"
+        launcher:title="@string/time" />
+
+    <Cell
+        launcher:cellType="229381"
+        launcher:cellX="0"
+        launcher:cellY="6"
+        launcher:className="com.android.camera.GalleryPicker"
+        launcher:gravity="768"
+        launcher:icon="pic/picture.png"
+        launcher:packageName="com.android.gallery"
+        launcher:spanX="4"
+        launcher:spanY="2" 
+         launcher:title="@string/gallery"/>
+
+    <Cell
+        launcher:style="7"
+        launcher:backColor="-10442473"
+        launcher:cellType="229379"
+        launcher:cellX="0"
+        launcher:cellY="8"
+        launcher:className="com.mediatek.filemanager.FileManagerOperationActivity"
+        launcher:gravity="768"
+        launcher:icon="pic/folder_closed.png"
+        launcher:packageName="com.mediatek.filemanager"
+        launcher:spanX="1"
+        launcher:spanY="1"
+        launcher:title="@string/folder" />
+
+    <Cell
+        launcher:cellType="229376"
+        launcher:cellX="1"
+        launcher:cellY="8"
+        launcher:className="com.android.g3_calculator2.Calculator"
+        launcher:gravity="768"
+        launcher:icon="pic/calculator.png"
+        launcher:packageName="com.android.g3_calculator2"
+        launcher:spanX="1"
+        launcher:spanY="1" 
+        launcher:title="@string/calculator"/>
+
+    <Cell
+        launcher:cellType="163840"
+        launcher:cellX="2"
+        launcher:cellY="8"
+        launcher:className="com.android.vending.AssetBrowserActivity"
+        launcher:gravity="768"
+        launcher:icon="pic/play.png"
+        launcher:packageName="com.android.vending"
+        launcher:spanX="2"
+        launcher:spanY="1" 
+        launcher:title="@string/playstore"/>
+
+    <cell
+        launcher:cellType="163840"
+        launcher:cellX="0"
+        launcher:cellY="9"
+        launcher:className="com.android.providers.downloads.ui.DownloadList"
+        launcher:gravity="768"
+        launcher:icon="pic/download.png"
+        launcher:packageName="com.android.providers.downloads.ui"
+        launcher:spanX="1"
+        launcher:spanY="2" 
+        launcher:title="@string/theme_menu_down"/>
+
+    <Cell
+        launcher:cellType="163840"
+        launcher:cellX="1"
+        launcher:cellY="9"
+        launcher:className="com.android.contacts.activities.DialtactsCalllogActivity"
+        launcher:gravity="768"
+        launcher:icon="pic/callhistroy.png"
+        launcher:packageName="com.android.contacts"
+        launcher:spanX="1"
+        launcher:spanY="1" 
+         launcher:title="@string/calllog"/>
+
+    <Cell
+        launcher:cellType="163840"
+        launcher:cellX="1"
+        launcher:cellY="10"
+        launcher:className="com.android.calendar.AllInOneActivity"
+        launcher:gravity="768"
+        launcher:icon="pic/calendar.png"
+        launcher:packageName="com.android.calendar"
+        launcher:spanX="1"
+        launcher:spanY="1" 
+         launcher:title="@string/calelender"/>
+
+    <Cell
+        launcher:cellType="163840"
+        launcher:cellX="2"
+        launcher:cellY="9"
+        launcher:className="com.mediatek.videoplayer.MovieListActivity"
+        launcher:gravity="768"
+        launcher:icon="pic/video.png"
+        launcher:packageName="com.mediatek.videoplayer"
+        launcher:spanX="2"
+        launcher:spanY="2" 
+        launcher:title="@string/video"/>
+
+    <Cell
+        launcher:cellType="163840"
+        launcher:cellX="0"
+        launcher:cellY="11"
+        launcher:className="com.mediatek.StkSelection.StkSelection"
+        launcher:gravity="768"
+        launcher:icon="pic/softmanager.png"
+        launcher:packageName="com.mediatek.StkSelection"
+        launcher:spanX="1"
+        launcher:spanY="1" 
+        launcher:title="@string/calelender"/>
+
+    <Cell
+        launcher:cellType="163840"
+        launcher:cellX="1"
+        launcher:cellY="11"
+        launcher:className="com.android.soundrecorder.SoundRecorder"
+        launcher:gravity="768"
+        launcher:icon="pic/record.png"
+        launcher:packageName="com.android.soundrecorder"
+        launcher:spanX="2"
+        launcher:spanY="1" 
+        launcher:title="@string/recorder"/>
+
+    <Cell
+        launcher:cellType="163840"
+        launcher:cellX="3"
+        launcher:cellY="11"
+        launcher:className="com.mediatek.filemanager.FileManagerOperationActivity"
+        launcher:gravity="768"
+        launcher:icon="pic/folder.png"
+        launcher:packageName="com.mediatek.filemanager"
+        launcher:spanX="1"
+        launcher:spanY="1" 
+        launcher:title="@string/file_manage"/>
+        
+        
+<Cell
+        launcher:cellType="163840"
+        launcher:cellX="0"
+        launcher:cellY="12"
+        launcher:className="com.mediatek.app.mtv.ChannelListActivity"
+        launcher:gravity="768"
+        launcher:icon="pic/mtv.png"
+        launcher:packageName="com.mediatek.app.mtv"
+        launcher:spanX="1"
+        launcher:spanY="1" 
+        launcher:title="@string/mtv"/>
+
+    <Cell
+        launcher:cellType="163840"
+        launcher:cellX="1"
+        launcher:cellY="12"
+        launcher:className="com.mediatek.FMRadio.FMRadioActivity"
+        launcher:gravity="768"
+        launcher:icon="pic/radio.png"
+        launcher:packageName="com.mediatek.FMRadio"
+        launcher:spanX="1"
+        launcher:spanY="1" 
+        launcher:title="@string/FM"/>
+			
+			 <Cell
+        launcher:cellType="163840"
+        launcher:cellX="2"
+        launcher:cellY="12"
+        launcher:className="com.devuni.flashlight.MainActivity"
+        launcher:gravity="768"
+        launcher:icon="pic/flash_light.png"
+        launcher:packageName="com.devuni.flashlight"
+        launcher:spanX="1"
+        launcher:spanY="1" 
+        launcher:title="@string/flashlight"/>
+    <Cell
+        launcher:cellType="163840"
+        launcher:cellX="3"
+        launcher:cellY="12"
+        launcher:className="com.google.android.talk.SigningInActivity"
+        launcher:gravity="768"
+        launcher:icon="pic/talk.png"
+        launcher:packageName="com.google.android.talk"
+        launcher:spanX="1"
+        launcher:spanY="1" 
+        launcher:title="@string/google_talk"/>
+   
+<Cell
+        launcher:cellType="229384"
+        launcher:cellX="0"
+        launcher:cellY="13"
+        launcher:gravity="768"
+        launcher:icon="pic/menu.png"
+        launcher:spanX="1"
+        launcher:spanY="1"
+         launcher:title="@string/menu"  />
+
+    <Cell
+        launcher:cellType="229385"
+        launcher:cellX="1"
+        launcher:cellY="13"
+        launcher:gravity="768"
+        launcher:icon="pic/theme.png"
+        launcher:spanX="1"
+        launcher:spanY="1"
+         launcher:title="@string/theme_title"  />
+
+    <Cell
+        launcher:cellType="229504"
+        launcher:cellX="2"
+        launcher:cellY="13"
+        launcher:gravity="768"
+        launcher:icon="pic/search.png"
+        launcher:spanX="2"
+        launcher:spanY="1" 
+        launcher:title="@string/search_text"/>
+
+
+</Cells>

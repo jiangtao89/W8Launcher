@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/ll_search" android:background="@drawable/b_btn" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <ImageButton android:id="@id/ib_search_type" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/baidu_i" />
+        <ImageButton android:id="@id/ib_search_type_sel" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/sel" />
+        <EditText android:id="@id/search_key" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/search_the_web" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/ib_cancel" android:background="#00000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@drawable/cancel_w" />
+        <ImageButton android:id="@id/ib_search" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/searchbtn_w" />
+    </LinearLayout>
+    <HorizontalScrollView android:id="@id/viewpager_hsv" android:paddingRight="10.0dip" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.lx.launcher8.view.TitleLinearLayout android:orientation="horizontal" android:id="@id/viewpager_hsv_title" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+    <android.support.v4.view.ViewPager android:layout_gravity="center" android:id="@id/viewpager_container" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:persistentDrawingCache="animation" android:layout_width="fill_parent" android:layout_height="0.0dip" android:flipInterval="30" android:layout_weight="1.0" />
+    <TextView android:textSize="20.0sp" android:id="@id/tv_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/search_history" />
+    <ScrollView android:id="@id/list_sv" android:paddingLeft="10.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_history_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/ll_bottom" android:background="#ff313131" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <LinearLayout android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:layout_gravity="right" android:background="@drawable/more_btn_w" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip">
+            <Button android:id="@id/btn_voice" android:background="@drawable/re_microphone_w" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="?textAppearancePrimary" android:textSize="16.0sp" android:id="@id/btn_voice_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/voice" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip">
+            <Button android:id="@id/btn_set" android:background="@drawable/re_set_w" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="?textAppearancePrimary" android:textSize="16.0sp" android:id="@id/btn_set_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings" />
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:layout_gravity="right" android:id="@id/btn_show_more" android:background="@drawable/more_btn_w" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

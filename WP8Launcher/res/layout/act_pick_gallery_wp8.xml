@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bg_linear" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="#ff707070" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/normal_margin" android:text="@string/special_gallery_info" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/normal_margin">
+        <Button android:textSize="16.0sp" android:id="@id/btn_select" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gallerys_folder_btn" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:id="@id/text_select" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gallerys_title" android:layout_toLeftOf="@id/btn_select" android:layout_alignParentTop="true" />
+        <TextView android:id="@id/text_path" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/btn_select" android:layout_below="@id/text_select" />
+    </RelativeLayout>
+    <GridView android:id="@id/gridview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="@dimen/normal_margin" android:horizontalSpacing="3.0dip" android:verticalSpacing="10.0dip" android:numColumns="3" android:layout_weight="1.0" />
+    <View android:background="#ffdcdcdc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:padding="@dimen/normal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="16.0sp" android:id="@id/btn_add" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="@string/icon_from_2" android:singleLine="true" android:layout_weight="1.0" />
+        <Button android:textSize="16.0sp" android:id="@id/btn_del" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/special_del" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

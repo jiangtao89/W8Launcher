@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:padding="5.0dip" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?textAppearancePrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/title" />
+        <EditText android:id="@id/act_edit_cell_edit" android:background="@drawable/item_selector" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:singleLine="true" />
+        <TextView android:textAppearance="?textAppearancePrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/binding_app" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:id="@id/act_edit_cell_appname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="AA" android:singleLine="true" android:layout_weight="1.0" />
+            <Button android:id="@id/act_edit_cell_chooseapp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/choose_app" style="?attr/buttonStyleRect" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/set_dyn_gallery_pic_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            <Button android:id="@id/set_dyn_gallery_pic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_dyn_gallery" style="?attr/buttonStyleRect" />
+        </LinearLayout>
+        <TextView android:textAppearance="?textAppearancePrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/text_color" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/act_edit_cell_choose_textcolor_layout" android:background="@drawable/item_selector" android:focusable="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:textColor="#00000000" android:id="@id/act_edit_cell_textcolor" android:background="#ff31b2e7" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="10.0dip" android:singleLine="true" />
+            <TextView android:textColor="@color/deep_black" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/change_text_color" />
+        </LinearLayout>
+        <TextView android:textAppearance="?textAppearancePrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/background_color" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/act_edit_cell_choose_bgcolor_layout" android:background="@drawable/item_selector" android:focusable="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+            <TextView android:textColor="#00000000" android:id="@id/act_edit_cell_bgcolor" android:background="#ff31b2e7" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="10.0dip" android:singleLine="true" />
+            <TextView android:textColor="@color/deep_black" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/change_background_color" />
+        </LinearLayout>
+        <TextView android:textAppearance="?textAppearancePrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/cell_type" />
+        <LinearLayout android:orientation="vertical" android:id="@id/cell_style_layout_icon_root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/cell_style_layout_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/choose_pic_about" android:singleLine="true" android:layout_weight="1.0" />
+                <Button android:id="@id/act_edit_cell_chooseicon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wallpaper_select" style="?attr/buttonStyleRect" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/pic_placement" />
+        </LinearLayout>
+        <com.lx.launcher8.view.MutiChooseView android:id="@id/cell_style_pic_gravity" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+        <TextView android:textAppearance="?textAppearancePrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/cell_func_root" />
+        <com.lx.launcher8.view.MutiChooseView android:id="@id/cell_style_fun" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+        <Button android:id="@id/act_edit_cell_ok" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="10.0dip" android:text="@string/sure" style="?attr/buttonStyleRect" />
+    </LinearLayout>
+</ScrollView>

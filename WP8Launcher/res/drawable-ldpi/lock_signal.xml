@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/w_nocard" android:maxLevel="0" />
+    <item android:drawable="@drawable/flight_w" android:maxLevel="5" />
+    <item android:drawable="@drawable/lock_signal_01" android:maxLevel="10" />
+    <item android:drawable="@drawable/lock_signal_02" android:maxLevel="15" />
+    <item android:drawable="@drawable/lock_signal_03" android:maxLevel="20" />
+    <item android:drawable="@drawable/lock_signal_04" android:maxLevel="25" />
+    <item android:drawable="@drawable/lock_signal_05" android:maxLevel="30" />
+    <item android:drawable="@drawable/lock_signal_06" android:maxLevel="100" />
+</level-list>

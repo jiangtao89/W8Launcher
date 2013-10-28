@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?attr/mainStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceTitle" android:textSize="18.0sp" android:gravity="center_vertical" android:id="@id/set_item_title_first_title" android:background="@drawable/bg_set_title" android:paddingLeft="5.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" android:text="@string/settings" android:drawableLeft="@drawable/ic_title_sub" android:drawablePadding="5.0dip" />
+    <ScrollView android:scrollbars="none" android:fadingEdge="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.lx.launcher8.setting.view.SizeLayout android:id="@id/cell0" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/size_margin" android:layout_weight="1.0" />
+                <com.lx.launcher8.setting.view.SizeLayout android:id="@id/cell4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/size_margin" android:layout_weight="1.0" />
+                <com.lx.launcher8.setting.view.SizeLayout android:id="@id/cell8" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/size_margin" android:layout_weight="1.0" />
+                <com.lx.launcher8.setting.view.SizeLayout android:id="@id/cell12" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/size_margin" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.lx.launcher8.setting.view.SizeLayout android:id="@id/cell1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/size_margin" android:layout_weight="1.0" />
+                <com.lx.launcher8.setting.view.SizeLayout android:id="@id/cell5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/size_margin" android:layout_weight="1.0" />
+                <com.lx.launcher8.setting.view.SizeLayout android:id="@id/cell9" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/size_margin" android:layout_weight="1.0" />
+                <com.lx.launcher8.setting.view.SizeLayout android:id="@id/cell13" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/size_margin" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.lx.launcher8.setting.view.SizeLayout android:id="@id/cell2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/size_margin" android:layout_weight="1.0" />
+                <com.lx.launcher8.setting.view.SizeLayout android:id="@id/cell6" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/size_margin" android:layout_weight="1.0" />
+                <com.lx.launcher8.setting.view.SizeLayout android:id="@id/cell10" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/size_margin" android:layout_weight="1.0" />
+                <com.lx.launcher8.setting.view.SizeLayout android:id="@id/cell14" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/size_margin" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.lx.launcher8.setting.view.SizeLayout android:id="@id/cell3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/size_margin" android:layout_weight="1.0" />
+                <com.lx.launcher8.setting.view.SizeLayout android:id="@id/cell7" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/size_margin" android:layout_weight="1.0" />
+                <com.lx.launcher8.setting.view.SizeLayout android:id="@id/cell11" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/size_margin" android:layout_weight="1.0" />
+                <com.lx.launcher8.setting.view.SizeLayout android:id="@id/cell15" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/size_margin" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

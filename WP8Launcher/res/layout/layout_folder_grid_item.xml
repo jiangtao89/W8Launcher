@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/folder_grid_item_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <TextView android:textColor="@color/black" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/folder_grid_item_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?attr/mainStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceTitle" android:textSize="18.0sp" android:gravity="center_vertical" android:id="@id/set_item_title_first_title" android:background="@drawable/bg_set_title" android:paddingLeft="5.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" android:text="@string/pwd_set_title" android:drawableLeft="@drawable/ic_title_sub" android:drawablePadding="5.0dip" />
+    <LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/w_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+            <com.lx.launcher8.view.SettingLinearLayout android:id="@id/lock_pwd_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/lock_modify_layout" android:paddingTop="@dimen/set_item_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="#ff535353" android:id="@id/lock_screen_color_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pwd_advance_set" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/w_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <com.lx.launcher8.view.SettingLinearLayout android:id="@id/pwd_modify" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="47" android:versionName="1.5.3" android:installLocation="internalOnly" package="com.lx.launcher8"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+   android:sharedUserId="android.uid.system">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <uses-feature android:name="android.hardware.wifi" android:required="false" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+    <uses-feature android:name="android.hardware.location" android:required="false" />
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    <application android:theme="@*android:style/Theme.NoTitleBar" android:label="@string/app_name" android:icon="@drawable/logo" android:name="com.lx.launcher8.AnallApp" android:debuggable="true" android:process="android.process.acore" android:largeHeap="true">
+        <activity android:theme="@style/launcherTheme" android:name="com.lx.launcher8.AnallLauncher" android:clearTaskOnLaunch="true" android:stateNotNeeded="true" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustPan" android:hardwareAccelerated="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.lx.launcher8.DefaultAct" android:enabled="false" android:stateNotNeeded="true" android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.lx.launcher8.setting.wp8.SettingAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.MainSettingAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.AddWidgetAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.AddWidgetAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.AddAppAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.AddAppAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.AddSpecialAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.AddSpecialAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.EditCellAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.EditCellAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.SettingDeskItemsAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.SettingDeskItemsAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.FolderSettingAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.FolderAppPickAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.FolderSettingsActWP8" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.AppPickAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.AppPickAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.SizePickAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.SizePickAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.TextStylePickAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.TextStylePickAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.ColorPickerAct" android:process=":lock" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.ColorPickerAct" android:process=":lock" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.IconPickAct" android:process=":lock" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.IconPickAct" android:process=":lock" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.ThemePickAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.ThemeMainAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.LockSettingAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.LockScreenStyleAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.LockScreenStyleAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.AppListStyleAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.AppListStyleAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.GalleryPickAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.GalleryPickAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.ThemeOperationAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.ThemeDetailAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.ThemeOnlineListAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.ThemeShotDetailAct" android:configChanges="keyboardHidden|orientation" android:hardwareAccelerated="false" />
+        <activity android:name="com.lx.launcher8.setting.WallpaperPickAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.WallpaperPickAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.LockScreenPaperPickAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.LockScreenPaperPickAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.LockScreenPaperDetailAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.LockScreenPaperDetailAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.LockScreenPaperListAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.LockScreenPaperListAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.LockSoundPickerAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.LockSoundListAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.LockSoundListAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.LockPwdAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.LockPwdAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.PwdSetAct" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.lx.launcher8.setting.PwdSetAct" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.lx.launcher8.setting.wp8.AppIndexAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.AppIndexAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.SettingLightItemsAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.LightAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.LightScreenAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.SettingLightItemsAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.TopAppAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.TopAppDetailAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.TopAppSearchAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.SettingSearchItemsAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.SearchAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.setting.wp8.ShareAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.image.ImageBrower" android:configChanges="keyboard|orientation" />
+        <activity android:name="com.anall.statusbar.StatusBarSettings" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.anall.statusbar.StatusBarSettingsWP8" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.crop.CropImage" android:process=":lock" />
+        <service android:label="@string/lock_screen_service" android:name="com.anall.screenlock.LockScreenService" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.anall.screenlock.WPLockAct" android:taskAffinity="com.lx.launcher8.WPLockAct" android:multiprocess="false" android:excludeFromRecents="true" android:launchMode="singleInstance" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.anall.action.screen.locker" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.anall.statusbar.ExpendAct" android:taskAffinity="com.anall.statusbar.ExpendAct" android:multiprocess="false" android:stateNotNeeded="true" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.anall.statusbar.StatusBarListen" android:configChanges="keyboardHidden|orientation" />
+        <service android:label="@string/status_bar_service" android:name="com.anall.statusbar.BarService" />
+        <service android:label="@string/notification_service" android:name="com.anall.statusbar.NotificationService" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" android:enabled="@bool/is_jelly_bean">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/accessibility_service_config" />
+        </service>
+        <service android:label="@string/notification_service" android:name="com.anall.statusbar.NotificationService" android:enabled="@bool/is_not_jelly_bean">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/accessibility_service_config" />
+        </service>
+        <activity android:name="com.app.ads.AdsAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.app.common.SimpleWebViewAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.app.download.DownloadManagerAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.MoreAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.ProposeAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.AboutAct" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.lx.launcher8.DisplayFolderAct" android:configChanges="keyboardHidden|orientation" />
+    </application>
+</manifest>

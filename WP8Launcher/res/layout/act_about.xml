@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_about" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="21.0dip" android:textColor="@color/white" android:gravity="center" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/about" />
+    <View android:background="#82022f97" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <ImageView android:layout_gravity="center" android:id="@id/launcher_about_wp8" android:background="@drawable/about_wp8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff094b71" android:gravity="center" android:id="@id/launcher_about_anall" android:background="@drawable/about_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="30.0dip" android:shadowColor="#ffffffff" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:visibility="gone"/>
+    <ScrollView android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="30.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="#aaffffff" android:id="@id/launcher_about_text" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="5.0dip" />
+    </ScrollView>
+</LinearLayout>

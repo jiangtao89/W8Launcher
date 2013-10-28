@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/linear_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="#ff707070" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/normal_margin" android:text="@string/choose_app_list_style" />
+    <ScrollView android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:id="@id/radio_img_01" android:background="#ff959595" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wp8_w" />
+                    <RadioButton android:textAppearance="?textAppearancePrimary" android:textSize="14.0sp" android:layout_gravity="center" android:id="@id/radio1" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/lock_theme_01_extra" style="@style/radioButtonWP8" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:id="@id/radio_img_02" android:background="#ff959595" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/win8_w" />
+                    <RadioButton android:textAppearance="?textAppearancePrimary" android:textSize="14.0sp" android:layout_gravity="center" android:id="@id/radio2" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lock_theme_02" style="@style/radioButtonWP8" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/normal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:id="@id/radio_img_03" android:background="#ff959595" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/android_w" />
+                    <RadioButton android:textAppearance="?textAppearancePrimary" android:textSize="14.0sp" android:layout_gravity="center" android:id="@id/radio3" android:paddingTop="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lock_theme_03" style="@style/radioButtonWP8" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:id="@id/radio_img_04" android:background="#ff959595" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/style_04" />
+                    <RadioButton android:textAppearance="?textAppearancePrimary" android:textSize="14.0sp" android:layout_gravity="center" android:id="@id/radio4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lock_theme_04" style="@style/radioButtonWP8" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

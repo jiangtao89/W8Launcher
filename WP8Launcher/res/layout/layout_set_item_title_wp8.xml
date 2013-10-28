@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:orientation="vertical" android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="left|center" android:id="@id/set_item_title_first_title" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="30.0sp" android:textColor="@color/white" android:gravity="left|center" android:id="@id/set_item_title_about" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/set_item_title_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="#ff535353" android:id="@id/hidden_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="left" android:id="@id/set_item_title_remark" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/confirm_bottom" android:background="#ff313131" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <Button android:layout_gravity="right" android:background="@drawable/more_btn_b" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="5.0dip">
+                <Button android:id="@id/confirm_btn" android:background="@drawable/confirm_btn_b" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textAppearance="?textAppearancePrimary" android:textSize="16.0sp" android:id="@id/confirm_btn_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ok" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip">
+                <Button android:id="@id/cancel_btn" android:background="@drawable/cancel_btn_b" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textAppearance="?textAppearancePrimary" android:textSize="16.0sp" android:id="@id/cancel_btn_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <Button android:layout_gravity="right" android:id="@id/show_content_linear" android:background="@drawable/more_btn_b" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textAppearance="?textAppearancePrimary" android:textSize="20.0sp" android:id="@id/delete_btn" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/delete_tile" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="28.0sp" android:textColor="#ff7d7d7d" android:ellipsize="marquee" android:id="@id/item_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" android:marqueeRepeatLimit="marquee_forever" />
+    <TextView android:textSize="21.0sp" android:textColor="#ff7d7d7d" android:ellipsize="marquee" android:id="@id/item_text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/item_text" android:marqueeRepeatLimit="marquee_forever" />
+    <RelativeLayout android:id="@id/item_fl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/item_text1" android:layout_alignParentLeft="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/item_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_theme_defalt" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff7d7d7d" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" />
+        </LinearLayout>
+        <ImageView android:id="@id/item_image" android:background="#ff313131" android:layout_width="fill_parent" android:layout_height="fill_parent" android:adjustViewBounds="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/item_fl1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_toRightOf="@id/item_fl" android:layout_below="@id/item_text1">
+        <LinearLayout android:orientation="vertical" android:id="@id/item_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_theme_defalt" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff7d7d7d" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading" />
+        </LinearLayout>
+        <ImageView android:id="@id/item_image1" android:background="#ff313131" android:layout_width="fill_parent" android:layout_height="fill_parent" android:adjustViewBounds="true" />
+    </RelativeLayout>
+</RelativeLayout>

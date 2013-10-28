@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="#00000000" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/notification_signal" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/lock_signal" android:scaleType="fitCenter" />
+    <ImageView android:id="@id/notification_3g" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/b_3g" android:scaleType="fitCenter" />
+    <ImageView android:id="@id/notification_wifi" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/lock_wifi" android:scaleType="fitCenter" />
+    <ImageView android:id="@id/notification_gps" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/gps_w" android:scaleType="fitCenter" />
+    <ImageView android:id="@id/notification_headset" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <ImageView android:id="@id/notification_bluetooth" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <ImageView android:id="@id/notification_vibrator" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/lock_audio" android:scaleType="fitCenter" />
+    <TextView android:textSize="14.0dip" android:gravity="center" android:id="@id/notification_battey" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+    <ImageView android:id="@id/notification_power" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/lock_battery" android:scaleType="fitCenter" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/black" android:gravity="center" android:id="@id/notification_time" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+</merge>
